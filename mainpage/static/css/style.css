@@ -1,0 +1,456 @@
+/*Sansation*/
+@font-face {
+  font-family: 'Sansation_B';
+  src: url('fonts/7fonts_ru_Sansation_Bold.eot');
+  src: url('fonts/7fonts_ru_Sansation_Bold.eot') format('embedded-opentype'), url('fonts/7fonts_ru_Sansation_Bold.woff2') format('woff2'), url('fonts/7fonts_ru_Sansation_Bold.woff') format('woff'), url('fonts/7fonts_ru_Sansation_Bold.ttf') format('truetype'), url('fonts/7fonts_ru_Sansation_Bold.svg#7fonts_ru_Sansation_Bold') format('svg');
+}
+@font-face {
+  font-family: 'Sansation_L';
+  src: url('fonts/7fonts_ru_Sansation_Light.eot');
+  src: url('fonts/7fonts_ru_Sansation_Light.eot') format('embedded-opentype'), url('fonts/7fonts_ru_Sansation_Light.woff2') format('woff2'), url('fonts/7fonts_ru_Sansation_Light.woff') format('woff'), url('fonts/7fonts_ru_Sansation_Light.ttf') format('truetype'), url('fonts/7fonts_ru_Sansation_Light.svg#7fonts_ru_Sansation_Light') format('svg');
+}
+@font-face {
+  font-family: 'Sansation_R';
+  src: url('fonts/7fonts_ru_Sansation_Regular.eot');
+  src: url('fonts/7fonts_ru_Sansation_Regular.eot') format('embedded-opentype'), url('fonts/7fonts_ru_Sansation_Regular.woff2') format('woff2'), url('fonts/7fonts_ru_Sansation_Regular.woff') format('woff'), url('fonts/7fonts_ru_Sansation_Regular.ttf') format('truetype'), url('fonts/7fonts_ru_Sansation_Regular.svg#7fonts_ru_Sansation_Regular') format('svg');
+}
+/*Marske*/
+@font-face {
+  font-family: 'Marske';
+  src: url('fonts/Marske.eot');
+  src: url('fonts/Marske.eot') format('embedded-opentype'), url('fonts/Marske.woff2') format('woff2'), url('fonts/Marske.woff') format('woff'), url('fonts/Marske.ttf') format('truetype'), url('fonts/Marske.svg#Marske') format('svg');
+}
+/*jounalism*/
+@font-face {
+  font-family: 'journalism';
+  src: url('fonts/journalism2.eot');
+  src: url('fonts/journalism2.eot') format('embedded-opentype'), url('fonts/journalism2.woff2') format('woff2'), url('fonts/journalism2.woff') format('woff'), url('fonts/journalism2.ttf') format('truetype'), url('fonts/journalism2.svg#journalism2') format('svg');
+}
+/*Museo*/
+@font-face {
+  font-family: 'MuseoCyrl500';
+  src: url('fonts/exljbrisMuseoCyrl500.eot');
+  src: url('fonts/exljbrisMuseoCyrl500.eot') format('embedded-opentype'), url('fonts/exljbrisMuseoCyrl500.woff2') format('woff2'), url('fonts/exljbrisMuseoCyrl500.woff') format('woff'), url('fonts/exljbrisMuseoCyrl500.ttf') format('truetype'), url('fonts/exljbrisMuseoCyrl500.svg#exljbrisMuseoCyrl500') format('svg');
+}
+@font-face {
+  font-family: 'MuseoCyrl500Italic';
+  src: url('fonts/exljbrisMuseoCyrl500Italic.eot');
+  src: url('fonts/exljbrisMuseoCyrl500Italic.eot') format('embedded-opentype'), url('fonts/exljbrisMuseoCyrl500Italic.woff2') format('woff2'), url('fonts/exljbrisMuseoCyrl500Italic.woff') format('woff'), url('fonts/exljbrisMuseoCyrl500Italic.ttf') format('truetype'), url('fonts/exljbrisMuseoCyrl500Italic.svg#exljbrisMuseoCyrl500Italic') format('svg');
+}
+@font-face {
+  font-family: 'MuseoCyrl700';
+  src: url('fonts/exljbrisMuseoCyrl700.eot');
+  src: url('fonts/exljbrisMuseoCyrl700.eot') format('embedded-opentype'), url('fonts/exljbrisMuseoCyrl700.woff2') format('woff2'), url('fonts/exljbrisMuseoCyrl700.woff') format('woff'), url('fonts/exljbrisMuseoCyrl700.ttf') format('truetype'), url('fonts/exljbrisMuseoCyrl700.svg#exljbrisMuseoCyrl700') format('svg');
+}
+@font-face {
+  font-family: 'MuseoCyrl700Italic';
+  src: url('fonts/exljbrisMuseoCyrl700Italic.eot');
+  src: url('fonts/exljbrisMuseoCyrl700Italic.eot') format('embedded-opentype'), url('fonts/exljbrisMuseoCyrl700Italic.woff2') format('woff2'), url('fonts/exljbrisMuseoCyrl700Italic.woff') format('woff'), url('fonts/exljbrisMuseoCyrl700Italic.ttf') format('truetype'), url('fonts/exljbrisMuseoCyrl700Italic.svg#exljbrisMuseoCyrl700Italic') format('svg');
+}
+@font-face {
+  font-family: 'MuseoCyrl900';
+  src: url('fonts/exljbrisMuseoCyrl900.eot');
+  src: url('fonts/exljbrisMuseoCyrl900.eot') format('embedded-opentype'), url('fonts/exljbrisMuseoCyrl900.woff2') format('woff2'), url('fonts/exljbrisMuseoCyrl900.woff') format('woff'), url('fonts/exljbrisMuseoCyrl900.ttf') format('truetype'), url('fonts/exljbrisMuseoCyrl900.svg#exljbrisMuseoCyrl900') format('svg');
+}
+@font-face {
+  font-family: 'MuseoCyrl900Italic';
+  src: url('fonts/exljbrisMuseoCyrl900Italic.eot');
+  src: url('fonts/exljbrisMuseoCyrl900Italic.eot') format('embedded-opentype'), url('fonts/exljbrisMuseoCyrl900Italic.woff2') format('woff2'), url('fonts/exljbrisMuseoCyrl900Italic.woff') format('woff'), url('fonts/exljbrisMuseoCyrl900Italic.ttf') format('truetype'), url('fonts/exljbrisMuseoCyrl900Italic.svg#exljbrisMuseoCyrl900Italic') format('svg');
+}
+html,
+body {
+  overflow-x: hidden;
+  background-color: #dfe3ee;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #4c75a3;
+}
+header a:hover {
+  text-decoration: none;
+}
+header h1 {
+  margin-bottom: 20px;
+  color: white;
+  font-family: 'Sansation_B';
+}
+header .enter {
+  margin-top: 18px;
+}
+header h5 {
+  text-align: right;
+  color: white;
+  font-family: Verdana;
+}
+#home {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #4c75a3;
+}
+#home button {
+  border: none;
+  background-color: #dfe3ee;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  color: #3b5998;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: Verdana;
+  font-weight: normal;
+}
+#home button:focus {
+  outline: 0;
+}
+#home button:hover {
+  background-color: #cdd4e5;
+}
+#home .slider {
+  border-radius: 5px;
+  margin-top: -40px;
+  margin-bottom: -50px;
+}
+#home .instr-vid {
+  margin-top: 50px;
+  background-color: white;
+  height: 430px;
+  padding-top: 20px;
+  border-radius: 5px;
+  border: solid 1px #cccccc;
+}
+#home h3 {
+  font-family: 'MuseoCyrl900';
+  font-size: 30px;
+  color: #4c75a3;
+}
+#home .instr-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: solid 1px #cccccc;
+  margin-bottom: 30px;
+}
+#home .instr-text h4 {
+  font-family: 'MuseoCyrl900';
+  color: #3b5998;
+}
+#home .instr-text p {
+  font-family: Verdana;
+  color: #274e72;
+}
+#home .centers {
+  background-color: white;
+  height: 800px;
+  padding-top: 20px;
+  border-radius: 5px;
+  border: solid 1px #cccccc;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#home .centers .center {
+  border: solid 1px #99ccff;
+  border-radius: 5px;
+}
+#home .centers .center img {
+  border-radius: 3px;
+  border: solid 1px #cccccc;
+}
+#home .centers h3 {
+  color: #3b5998;
+  font-size: 20px;
+}
+#home .centers button {
+  border: none;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  color: #3b5998;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+#home .centers button:hover {
+  background-color: #dfe3ee;
+}
+#home .centers img {
+  margin-top: 5px;
+}
+#home .cities {
+  background-color: white;
+  height: 800px;
+  padding-top: 20px;
+  border-radius: 5px;
+  border: solid 1px #cccccc;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#home .cities .center {
+  border: solid 1px #99ccff;
+  border-radius: 5px;
+}
+#home .cities .center img {
+  border-radius: 3px;
+  border: solid 1px #cccccc;
+}
+#home .cities h3 {
+  color: #3b5998;
+  font-size: 20px;
+}
+#home .cities button {
+  border: none;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  color: #3b5998;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+#home .cities button:hover {
+  background-color: #dfe3ee;
+}
+#home .cities img {
+  margin-top: 5px;
+}
+#home .boutiques {
+  background-color: white;
+  height: 800px;
+  border-radius: 5px;
+  border: solid 1px #cccccc;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#home .boutiques .boutique {
+  border-bottom: solid 1px #cccccc;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+#home .boutiques .boutique img {
+  margin-bottom: 20px;
+}
+#home .boutiques .boutique h5 {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 20px;
+  color: #274e72;
+}
+#home .boutiques .boutique p {
+  font-family: Verdana;
+  font-size: 16px;
+  color: #274e72;
+}
+#home .boutiques .boutique button {
+  border: none;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  color: #274e72;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: Verdana;
+  font-weight: normal;
+  float: right;
+}
+#home .boutiques .boutique button:focus {
+  outline: 0;
+}
+#home .boutiques .boutique button:hover {
+  background-color: #cdd4e5;
+}
+#page {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+#page button {
+  border: none;
+  background-color: #dfe3ee;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  color: #3b5998;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: Verdana;
+  font-weight: normal;
+}
+#page button:focus {
+  outline: 0;
+}
+#page button:hover {
+  background-color: #cdd4e5;
+}
+#page .page-men {
+  padding-top: 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: solid 1px #cccccc;
+}
+#page .page-men button {
+  border: none;
+  background-color: white;
+  /*#dfe3ee;*/
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  color: #3b5998;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: Verdana;
+  font-weight: normal;
+}
+#page .page-men button:focus {
+  outline: 0;
+}
+#page .page-men button:hover {
+  background-color: #cdd4e5;
+}
+#page .page-main {
+  padding-top: 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: solid 1px #cccccc;
+  height: 800px;
+}
+#page .page-main img {
+  border-radius: 5px;
+  border: solid 1px #cccccc;
+}
+#page .page-main h4 {
+  margin-top: -1px;
+  font-family: Verdana;
+  color: #274e72;
+}
+#page .page-main p {
+  font-family: Verdana;
+  color: #274e72;
+}
+#home-cities {
+  padding-top: 30px;
+}
+#home-cities .cities {
+  background-color: white;
+  height: 400px;
+  padding-top: 20px;
+  border-radius: 5px;
+  border: solid 1px #cccccc;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#home-cities .cities .city {
+  border: solid 1px #99ccff;
+  border-radius: 5px;
+}
+#home-cities .cities .city img {
+  border-radius: 3px;
+  border: solid 1px #cccccc;
+}
+#home-cities .cities h3 {
+  color: #3b5998;
+}
+#home-cities .cities button {
+  border: none;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  color: #3b5998;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#home-cities .cities button:hover {
+  background-color: #dfe3ee;
+}
+#home-cities .cities img {
+  margin-top: 5px;
+}
+footer #footer-sub {
+  margin-left: 200px;
+}
+footer #footer-sub h5 {
+  color: #274e72;
+  margin-top: 25px;
+  font-family: Verdana;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  margin-left: 38px;
+}
+footer #footer-sub ul {
+  list-style: none;
+}
+footer #footer-sub ul li {
+  margin-bottom: 15px;
+}
+footer #footer-sub a {
+  font-family: Verdana;
+  color: #274e72;
+}
+footer #footer-sub a:link {
+  color: #274e72;
+  font-size: 12px;
+}
+footer #footer-sub a:active {
+  text-decoration: none;
+  color: #274e72;
+}
+footer #footer-main {
+  background-color: #4c75a3;
+}
+footer #footer-main ul {
+  list-style: none;
+  margin-left: 360px;
+}
+footer #footer-main ul li {
+  float: left;
+  text-decoration: none;
+  padding-left: 15px;
+  margin-top: 17px;
+}
+footer #footer-main a {
+  font-family: Verdana;
+  color: white;
+}
+footer #footer-main a:link {
+  color: white;
+  font-size: 12px;
+}
+footer #footer-main a:active {
+  color: white;
+}
+footer #social-menu {
+  float: right;
+  margin-right: 70px;
+}
+footer #social-menu li {
+  display: inline;
+  padding-left: 10px;
+}

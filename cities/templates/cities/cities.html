@@ -1,0 +1,21 @@
+{% extends "mainpage/wrapper.html" %}
+
+{% block content %}
+
+        <div class="col-md-8">
+          <div class ="cities text-center">
+            {% for city in object_list %}
+              <div class = "col-md-4">
+                <div class="center">
+                  {% load staticfiles %}
+                  <img src="{% static 'img'%}/{{city.name}}.jpg" alt="{{city.name_rus}}" height="130px" width = "170px">
+                  <h3>{{city.name_rus}}</h3>
+                  <button>Перейти в ТРЦ</button>
+                </div>
+              </div>
+              
+            {% endfor %}
+          </div>
+        </div>
+      
+{% endblock%}
