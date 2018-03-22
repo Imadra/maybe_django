@@ -86,12 +86,12 @@ header h5 {
   color: white;
   font-family: Verdana;
 }
-#home {
+section#home {
   padding-top: 30px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   border-bottom: 1px solid #4c75a3;
 }
-#home button {
+section#home .home-btn {
   border: none;
   background-color: #dfe3ee;
   padding-top: 5px;
@@ -107,31 +107,48 @@ header h5 {
   font-family: Verdana;
   font-weight: normal;
 }
-#home button:focus {
+section#home #login_form label {
+  color: #3b5998;
+}
+section#home #login_form .login-btn {
+  border: solid 1px #3b5998;
+  background-color: #dfe3ee;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  color: #3b5998;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: left;
+  font-family: Verdana;
+  font-weight: normal;
+}
+section#home button:focus {
   outline: 0;
 }
-#home button:hover {
+section#home button:hover {
   background-color: #cdd4e5;
 }
-#home .slider {
+section#home .slider {
   border-radius: 5px;
-  margin-top: -40px;
-  margin-bottom: -50px;
+  margin-top: -70px;
 }
-#home .instr-vid {
-  margin-top: 50px;
+section#home .instr-vid {
   background-color: white;
   height: 430px;
   padding-top: 20px;
   border-radius: 5px;
   border: solid 1px #cccccc;
 }
-#home h3 {
+section#home h3 {
   font-family: 'MuseoCyrl900';
   font-size: 30px;
   color: #4c75a3;
 }
-#home .instr-text {
+section#home .instr-text {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: white;
@@ -139,15 +156,15 @@ header h5 {
   border: solid 1px #cccccc;
   margin-bottom: 30px;
 }
-#home .instr-text h4 {
+section#home .instr-text h4 {
   font-family: 'MuseoCyrl900';
   color: #3b5998;
 }
-#home .instr-text p {
+section#home .instr-text p {
   font-family: Verdana;
   color: #274e72;
 }
-#home .centers {
+section#home .centers {
   background-color: white;
   height: 800px;
   padding-top: 20px;
@@ -156,19 +173,19 @@ header h5 {
   padding-left: 20px;
   padding-right: 20px;
 }
-#home .centers .center {
+section#home .centers .center {
   border: solid 1px #99ccff;
   border-radius: 5px;
 }
-#home .centers .center img {
+section#home .centers .center img {
   border-radius: 3px;
   border: solid 1px #cccccc;
 }
-#home .centers h3 {
+section#home .centers h3 {
   color: #3b5998;
   font-size: 20px;
 }
-#home .centers button {
+section#home .centers button {
   border: none;
   background-color: white;
   padding-top: 5px;
@@ -181,13 +198,13 @@ header h5 {
   margin-bottom: 10px;
   font-size: 12px;
 }
-#home .centers button:hover {
+section#home .centers button:hover {
   background-color: #dfe3ee;
 }
-#home .centers img {
+section#home .centers img {
   margin-top: 5px;
 }
-#home .cities {
+section#home .cities {
   background-color: white;
   height: 800px;
   padding-top: 20px;
@@ -196,19 +213,19 @@ header h5 {
   padding-left: 20px;
   padding-right: 20px;
 }
-#home .cities .center {
+section#home .cities .center {
   border: solid 1px #99ccff;
   border-radius: 5px;
 }
-#home .cities .center img {
+section#home .cities .center img {
   border-radius: 3px;
   border: solid 1px #cccccc;
 }
-#home .cities h3 {
+section#home .cities h3 {
   color: #3b5998;
   font-size: 20px;
 }
-#home .cities button {
+section#home .cities button {
   border: none;
   background-color: white;
   padding-top: 5px;
@@ -221,13 +238,13 @@ header h5 {
   margin-bottom: 10px;
   font-size: 12px;
 }
-#home .cities button:hover {
+section#home .cities button:hover {
   background-color: #dfe3ee;
 }
-#home .cities img {
+section#home .cities img {
   margin-top: 5px;
 }
-#home .boutiques {
+section#home .boutiques {
   background-color: white;
   height: 800px;
   border-radius: 5px;
@@ -235,26 +252,26 @@ header h5 {
   padding-left: 20px;
   padding-right: 20px;
 }
-#home .boutiques .boutique {
+section#home .boutiques .boutique {
   border-bottom: solid 1px #cccccc;
   border-radius: 3px;
   margin-top: 20px;
 }
-#home .boutiques .boutique img {
+section#home .boutiques .boutique img {
   margin-bottom: 20px;
 }
-#home .boutiques .boutique h5 {
+section#home .boutiques .boutique h5 {
   font-family: Verdana;
   font-weight: bold;
   font-size: 20px;
   color: #274e72;
 }
-#home .boutiques .boutique p {
+section#home .boutiques .boutique p {
   font-family: Verdana;
   font-size: 16px;
   color: #274e72;
 }
-#home .boutiques .boutique button {
+section#home .boutiques .boutique button {
   border: none;
   background-color: white;
   padding-top: 5px;
@@ -270,10 +287,10 @@ header h5 {
   font-weight: normal;
   float: right;
 }
-#home .boutiques .boutique button:focus {
+section#home .boutiques .boutique button:focus {
   outline: 0;
 }
-#home .boutiques .boutique button:hover {
+section#home .boutiques .boutique button:hover {
   background-color: #cdd4e5;
 }
 #page {

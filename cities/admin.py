@@ -3,6 +3,6 @@ from __future__ import unicode_literals
 
 from django.contrib import admin
 
-from cities.models import Cities
+from cities.models import City
 
-admin.site.register(Cities)
+admin.site.register(City)
